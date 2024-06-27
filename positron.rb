@@ -1,9 +1,9 @@
-class Positron < Formula
+cask "rstudio" do
   desc "A next-generation data science IDE"
   homepage "https://www.posit.co/"
   url "https://github.com/posit-dev/positron/releases/download/2024.06.1-27/Positron-2024.06.1-27.dmg"
-  sha256 "1f6d580d109fe151c1a63b226f26ae346f913511fc7aceffd683b0a5892e9dc6"
-  license "GPL-2.0-or-later"
+  sha256 ""
+  license "Elastic License 2.0"
 
   livecheck do
     url :stable
