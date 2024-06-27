@@ -7,7 +7,7 @@ cask "positron" do
 
   livecheck do
     url :stable
-    strategy :github_latest
+    regex(/^(\d{4}\.\d{2}\.\d+-\d+)+)$/i)
   end
 
   app "Positron.app"
