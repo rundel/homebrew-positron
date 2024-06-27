@@ -13,6 +13,9 @@ cask "positron" do
         #next if release["draft"] || release["prerelease"]
   
         match = release["tag_name"]&.match(regex)
+        
+        system "false"
+
         next if match.blank?
   
         match[1]
